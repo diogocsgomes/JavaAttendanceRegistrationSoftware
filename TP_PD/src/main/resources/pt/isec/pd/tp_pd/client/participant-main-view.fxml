@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<VBox spacing="15" alignment="CENTER" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="pt.isec.pd.tp_pd.controllers.ClientController"
+      styleClass="root"
+      fx:id="box">
+    <stylesheets>
+        <URL value="@../css/styles.css"/>
+    </stylesheets>
+
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label text="Participant view"/>
+    <Button fx:id="editProfileViewButton" text="Edit Profile" onAction="#onEditProfileViewButtonClick"/>
+    <Button fx:id="registerAttendanceViewButton" text="Register Attendance" onAction="#onRegisterAttendanceViewButtonClick"/>
+    <Button fx:id="listAttendancesViewButton" text="List Past Attendances" onAction="#onListAttendancesViewButtonClick"/>
+    <Button fx:id="logoutButton" text="Logout" onAction="#onLogoutButtonClick"/>
+</VBox>

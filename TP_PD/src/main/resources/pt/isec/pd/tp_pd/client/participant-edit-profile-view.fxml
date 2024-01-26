@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.PasswordField?>
+<VBox spacing="15" alignment="CENTER" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="pt.isec.pd.tp_pd.controllers.ClientController"
+      styleClass="root"
+      fx:id="box">
+    <stylesheets>
+        <URL value="@../css/styles.css"/>
+    </stylesheets>
+
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label text="Edit profile"/>
+    <TextField fx:id="emailRegisterField" promptText="Email"/>
+    <PasswordField fx:id="passwordRegisterField" promptText="Password"/>
+    <PasswordField fx:id="confirmPasswordRegisterField" promptText="Confirm Password"/>
+    <Button fx:id="confirmEditButton" text="Confirm Edit" onAction="#onConfirmEditButtonClick"/>
+    <Button fx:id="cancelButton" text="Cancel" onAction="#onCancelButtonClick"/>
+</VBox>
