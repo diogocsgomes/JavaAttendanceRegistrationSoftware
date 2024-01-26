@@ -1,1 +1,1 @@
-# JavaAttendanceRegistrationSoftware
+# Java Attendance Registration Software
