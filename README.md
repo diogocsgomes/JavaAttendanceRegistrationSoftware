@@ -29,4 +29,4 @@ This is a simple Server/Client software that allows for clients to reggister the
   <li>Admin credentials(it is only possible to add an admin through the sql file, an BD managment software like DataGrip does the trick): <br> 
   username: admin@test password: 1234</li>
 </ul>
-I made this project alongside with: <a href="https://github.com/JE0Ny"> JE0Ny</a> and <a href="https://github.com/WojciechLarecki"> WojciechLarecki </a>
+I made this project alongside with: <a href="https://github.com/joaoeoneves"> joaoeoneves</a> and <a href="https://github.com/WojciechLarecki"> WojciechLarecki </a>
